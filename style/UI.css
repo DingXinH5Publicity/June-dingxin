@@ -8237,6 +8237,7 @@ a.uk-thumbnail:focus {
     color: #000;
     line-height: 2;
     text-indent: 2em;
+    overflow:hidden;
 }
 .slide_7_text{
   overflow:hidden;
@@ -8306,9 +8307,9 @@ a.uk-thumbnail:focus {
   line-height:2;
 }
 .slide_9 .cont_1{
-  background:url("../images/slide_9_cont1_bac.png") repeat-y;
-  background-size:81.3% auto;
-  background-position:30px 40px;
+  background:url("../images/slide_9_cont1_bac.png") no-repeat;
+  background-size:40.3% auto;
+  background-position:0 14%;
   padding-bottom:10px;
 }
 .slide_9_top_cont{
