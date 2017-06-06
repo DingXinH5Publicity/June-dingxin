@@ -1732,12 +1732,14 @@ ul.uk-nav-sub {
  * Items
  */
 .uk-nav-offcanvas > li > a {
-  color: #cccccc;
-  padding: 10px 15px;
+  color: #fff;
+  padding: 5px 15px;
   /*border-top: 1px solid rgba(0, 0, 0, 0.3);*/
   /*box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);*/
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+  /*text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);*/
   height:25px;
+  text-align:center;
+  line-height:25px;
 }
 /*
  * Hover
@@ -7069,9 +7071,11 @@ a.uk-thumbnail:focus {
   /* 2 */
   width: 270px;
   max-width: 100%;
-  background: url("../images/nav_bac.png");
-  background-repeat:repeat-y;
-  background-size:100% auto;
+  background-color:#fff;
+  background-image:url("../images/nav_bac1.jpg"),url("../images/nav_bac2.jpg");
+  background-repeat:no-repeat,no-repeat;
+  background-size:100% auto,100% auto;
+  background-position:right top,right bottom;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -8015,11 +8019,15 @@ a.uk-thumbnail:focus {
   height:15px;
 }
 .uk-nav li{
+  width:59.528%;
+  border-radius:10px;
   margin-bottom:15px;
+  margin-left:55px;
   background:rgba(181, 181, 181, 0.7);
 }
 .uk-nav li a{
   position:relative;
+  border-radius:10px;
 }
 .sele{
   position:absolute;
@@ -8029,49 +8037,34 @@ a.uk-thumbnail:focus {
   margin-top:-8px;
 }
 .border_index{
-  border-left:10px solid #6bab62;
-  background:url("../images/link_index.png") no-repeat;
-  background-size:auto 15px;
-  background-position:15px center;
+  background-color:#69b15e;
 }
 .border_shistory{
-  border-left:10px solid #5286b4;
-  background:url("../images/link_history.png"),url("../images/slide_history.png");
-  background-repeat:no-repeat;
-  background-size:auto 15px,8px auto;
-  background-position:15px center,240px center;
+  background-color:#4d88bd;
 }
 .border_zhongbang{
-  border-left:10px solid #b4a56e;
-  background:url("../images/link_zhongbang.png"),url("../images/slide_zhongbang.png");
-  background-repeat:no-repeat;
-  background-size:auto 15px,8px auto;
-  background-position:15px center,240px center;
+  background-color:#bdab6d;
 }
 .border_renwu{
-  border-left:10px solid #a974a3;
-  background:url("../images/link_renwu.png"),url("../images/slide_renwu.png");
-  background-repeat:no-repeat;
-  background-size:auto 15px,8px auto;
-  background-position:15px center,240px center;
+  background-color:#b073a9;
+}
+.border_guanai{
+  background-color:#ed6e95;
 }
 .border_shunjian{
-  border-left:10px solid #e8b03c;
-  background:url("../images/link_shunjian.png"),url("../images/slide_shunjian.png");
-  background-repeat:no-repeat;
-  background-size:auto 15px,8px auto;
-  background-position:15px center,240px center;
+  background-color:#f7b733;
 }
 .top_1{
   width:88%;
   display:block;
   margin:18% auto;
+  margin-bottom:13%;
 }
 .bot_1{
   width:100%;
-  position:absolute;
+ /* position:absolute;
   bottom:0;
-  left:0;
+  left:0;*/
 }
 .slide_2{
   background:url('../images/sky_bac.jpg') no-repeat center center;
